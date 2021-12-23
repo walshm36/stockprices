@@ -6,7 +6,7 @@ numpy==1.19.5
 pandas==1.2.3
 seaborn==0.11.1
 streamlit==1.2.0
-torch==1.10.0+cu113
+torch==1.10.0 install
 torchaudio==0.10.0+cu113
 torchlibrosa==0.0.9
 torchsummary==1.5.1
