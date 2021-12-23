@@ -8,6 +8,8 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 from alpha_vantage.timeseries import TimeSeries 
+import sys
+print(sys.executable)
 print("All libraries loaded")
 
 config = {
