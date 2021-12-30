@@ -14,7 +14,7 @@ config = {
     "alpha_vantage": {
         "key": "J4JLQKLV6IR0Q0HG", # Claim your free API key here: https://www.alphavantage.co/support/#api-key
         "symbol": "VOD.LON",
-        "outputsize": "compact",
+        "outputsize": "full",
         "output_format": "pandas",
         "close": "4. close",
     },
