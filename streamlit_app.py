@@ -54,7 +54,7 @@ def download_data(config):
     data_date = [date for date in list(data.keys())]
     data_date.reverse()
 
-    data_close_price = [float(data[date][config["alpha_vantage"]["close"]]) for date in data.keys()]
+    data_close_price = [float(data[date][config["alpha_vantage"]["close"]]) for date in list(data.keys())]
     data_close_price.reverse()
     data_close_price = np.array(data_close_price)
 
