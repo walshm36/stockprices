@@ -56,7 +56,7 @@ def download_data(config):
 
     data_close_price = [float(data[date][config["alpha_vantage"]["close"]]) for date in list(data.keys())]
     data_close_price.reverse()
-    data_close_price = np.array(data_close_price)
+    #data_close_price = np.array(data_close_price)
 
     num_data_points = len(data_date)
     display_date_range = "from " + data_date[0] + " to " + data_date[num_data_points-1]
